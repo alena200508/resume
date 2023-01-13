@@ -125,6 +125,12 @@ a:visited {
     padding-left: 25px;
 }
 
+@media (max-width:480px) {
+.table th {
+    padding-right: 30px;
+}    
+}
+
 .table td {
     padding-left: 25px;
 }
