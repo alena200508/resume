@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: 300;
+    background: antiquewhite;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.info {
+    display: flex;
+}
+
+@media (max-width:902px) {
+.info {
+    display: block;
+    text-align: center;
+}
+}
+
+.info img {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 1);
+}
+
+.info-text {
+    margin-left: 30px;
+}
+
+.info-text h1 {
+    color: rgba(26, 25, 25, 0.8);
+}
+
+.info-text p {
+    font-weight: 600;
+    color: rgb(93, 123, 123);
+    margin-bottom: 16px;
+}
+
+.info-text h4 {
+    margin-top: 0;
+    margin-bottom: 6px;
+    color: rgba(26, 25, 25, 0.8);
+}
+
+.card {
+    border: 1px;
+    border-radius: 15px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    padding-right: 20px ;
+}
+
+.card ol {
+    margin-top: 0;
+}
+
+.card h3 {
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.bg-orange {
+    border: solid rgb(184, 134, 11);
+    background: rgba(244, 164, 96);
+}
+
+.bg-green {
+    border: solid rgb(34, 139, 34);
+    background: rgba(152, 251, 152);
+}
+
+
+
+a { 
+    color: black;
+    text-decoration: none;
+    transition: .3s;
+}
+
+a:hover {
+    font-size: 25px;
+}
+
+a:active {
+    color: rgb(252, 0, 0);
+}
+
+a:visited {
+    color: rgb(94, 90, 90);
+}
+
+
+
+.btn {
+    font-family: 'Lora', serif;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(47, 45, 45);
+}
+
+.lists li {
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(46, 45, 45, 0.5) ;
+}
+
+
+.table th {
+    padding-right: 80px;
+    padding-left: 25px;
+}
+
+.table td {
+    padding-left: 25px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: rgb(29, 29, 29);
+    font-weight: 600;
+}
+
+.form-row {
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .form-row  {
+        display: block;
+    }
+
+    .form-row .form-group { 
+        min-width: 99%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+        
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 5px 10px;
+    outline: none;
+}  
